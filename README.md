@@ -1,0 +1,1 @@
+# app-capacitor-sqllite
