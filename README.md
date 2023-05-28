@@ -8,3 +8,7 @@ stap one install  ng add @angular/pwa  ANd npm i @angular/service-worker --force
  npm install -g http-server  then change root ng build   and cd dist/angular-pwa project
 
   then commend    http-server -o 
+
+  # rtl chat Hub 
+  javascript:document.body.setAttribute('dir', 'rtl')
+  

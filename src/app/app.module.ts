@@ -18,13 +18,15 @@ import { AboutComponent } from './about/about.component';
 import { ErrorComponent } from './error/error.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AppAuthenticateComponent } from './app-authenticate/app-authenticate.component';
 @NgModule({
   declarations: [
     AppComponent,
     AppNvigationComponent,
     DashboardComponent,
     AboutComponent,
-    ErrorComponent
+    ErrorComponent,
+    AppAuthenticateComponent
   ],
   imports: [
     BrowserModule,
